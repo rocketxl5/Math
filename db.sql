@@ -1,0 +1,9 @@
+CREATE TABLE users (
+user_id MEDIUMINT(6) UNSIGNED AUTO_INCREMENT,
+fname VARCHAR(30) NOT NULL,
+lname VARCHAR(40) NOT NULL,
+email VARCHAR(50) NOT NULL,
+psword CHAR(40) NOT NULL,
+registration_date DATETIME,
+PRIMARY KEY (user_id)
+);
